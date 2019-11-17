@@ -2,12 +2,13 @@ let angle=0;
 let img;
 
 function setup(){
-    createCanvas(700,700,WEBGL);
+    createCanvas(1200,700,WEBGL);
     img=loadImage('face2.jpg');
 }
 
 function draw(){
-    background(175);
+    background(random(255),random(255),random(255));
+    noStroke();
     // normalMaterial();
     rectMode(CENTER);
     translate(0,0);
